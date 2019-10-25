@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import hdbscan
 from sklearn.preprocessing import StandardScaler
-vpd_enriched = pd.read_pickle('/Users/giuseppecrosti/Documents/RIPTA/analysis/vp_delays_enriched')
+vpd_enriched = pd.read_pickle('/Users/giuseppecrosti/Documents/RIPTA/analysis/vp_delays_enriched.pkl')
 import geopandas as gpd
 import matplotlib.pyplot as plt
 stops = pd.read_csv('/Users/giuseppecrosti/Downloads/Static data/google_transit/stops.txt')
