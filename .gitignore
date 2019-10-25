@@ -1,0 +1,4 @@
+*code-workspace
+*.shp
+*.pkl
+__pycache__/
